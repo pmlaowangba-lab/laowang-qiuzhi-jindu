@@ -1,0 +1,4 @@
+interface:
+  display_name: "老王求职进度"
+  short_description: "用对话更新投递进度、时间线、待复盘。"
+  default_prompt: "用 laowang-qiuzhi-jindu 记下我刚结束的面试进展。"

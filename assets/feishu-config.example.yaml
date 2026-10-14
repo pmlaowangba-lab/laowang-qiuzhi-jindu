@@ -1,0 +1,20 @@
+# 复制到 workspace/<season>/feishu-config.yaml
+# 勿提交真实 app_secret 到 Git
+
+app_id: cli_xxxxxxxx
+app_secret_env: FEISHU_APP_SECRET
+# 或直接写 app_secret: xxxxx（仅本地，workspace 已 gitignore）
+
+# 复用 obsidian-wx 已配置的飞书应用（推荐）
+# obsidian_wx_data_path: ../../../../.obsidian/plugins/obsidian-wx/data.json
+
+folder_token: ""  # 可选：指定飞书云空间文件夹
+
+# init 成功后自动写入
+app_token: ""
+app_url: ""
+tables:
+  applications: ""
+  timeline: ""
+  review_queue: ""
+record_map: {}
